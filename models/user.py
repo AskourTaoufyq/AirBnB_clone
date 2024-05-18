@@ -1,12 +1,13 @@
 #!/usr/bin/python3
-'''A class user that inherent from BaseModel'''
+'''class inherent of BaseModel'''
 from models.base_model import BaseModel
 
 
-class User(BaseModel):
-    '''represent a class User'''
+class State(BaseModel):
+    '''class State'''
 
-    email = ""
-    password = ""
-    first_name = ""
-    last_name = ""
+    name = ""
+
+    def __init__(self, *args, **kwargs):
+        """initializes State"""
+        super().__init__(*args, **kwargs)

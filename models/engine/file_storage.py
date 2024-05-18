@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 """file_storage.py module"""
 import json
@@ -68,4 +67,3 @@ class FileStorage():
 
         except FileNotFoundError:
             pass
-
