@@ -1,1 +1,1 @@
-readme file
+readme file web static
